@@ -1,0 +1,79 @@
+* {
+  font-family: "arial";
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+body {
+  width: 100%;
+  height: 100vh;
+  background: linear-gradient(
+      to bottom,
+      rgba(255, 255, 255, 0.521),
+      rgba(255, 255, 255, 0.521)
+    ),
+    url(foto\ smk.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+a:hover {
+  color: crimson;
+}
+
+nav {
+  position: fixed;
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  height: 80px;
+  align-items: center;
+  background-color: white;
+  color: white;
+  font-family: "Poppins", sans-serif;
+  border-bottom: cornflowerblue solid 2px;
+  top: 0;
+  z-index: 9999;
+}
+
+nav img {
+  margin-left: 20px;
+}
+
+nav ul li {
+  list-style: none;
+  display: inline-block;
+  padding: 20px;
+  font-weight: bolder;
+  margin-right: 20px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: rgb(12, 95, 251);
+}
+
+#cover {
+  font-size: 50px;
+  top: 40%;
+  width: 100%;
+  text-align: center;
+  margin: 250px auto;
+  margin-bottom: 300px;
+  max-width: 1100px;
+}
+
+#cover h1 {
+  color: black;
+  font-size: 70px;
+}
+
+#cover p {
+  color: black;
+  font-size: 25px;
+  margin: auto 90px;
+  font-weight: bold;
+}
